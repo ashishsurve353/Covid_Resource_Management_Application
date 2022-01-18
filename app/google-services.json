@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "298153717111",
+    "firebase_url": "https://ngo-app-a66aa.firebaseio.com",
+    "project_id": "ngo-app-a66aa",
+    "storage_bucket": "ngo-app-a66aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298153717111:android:20b6cc9f941be3f3ea4572",
+        "android_client_info": {
+          "package_name": "com.example.firestoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298153717111-17opbf3lkh4v00duac7f8s4hkqt8giu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWT5SAfv6vCMjERYQ5wx2lIy_eV2bLRbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298153717111-17opbf3lkh4v00duac7f8s4hkqt8giu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

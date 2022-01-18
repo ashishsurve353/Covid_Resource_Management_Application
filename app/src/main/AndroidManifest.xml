@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firestoreapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".CivilianMain" />
+        <activity android:name=".CivilianRegister" />
+        <activity android:name=".CivilianLogin" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AddupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".pro_adapter"></activity>
+        <activity android:name=".glist" />
+        <activity android:name=".hosp_adapter" />
+        <activity android:name=".hlist" />
+        <activity android:name=".update_req" />
+        <activity android:name=".update_stock" />
+        <activity android:name=".h_details" />
+        <activity android:name=".g_details" />
+        <activity android:name=".h_login" />
+        <activity android:name=".h_register" />
+        <activity android:name=".g_login" />
+        <activity android:name=".g_register" />
+        <activity android:name=".gov_reglog" />
+        <activity android:name=".hosp_reglog" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

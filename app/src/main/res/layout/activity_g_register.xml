@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".g_register">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="458dp"
+        android:elevation="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+        <EditText
+            android:id="@+id/orgid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Organization Id"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Username"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="659dp" />
+
+
+        <Button
+            android:id="@+id/reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="register"
+            android:text="REGISTER"
+            android:background="@drawable/buttonstyle"
+            android:backgroundTint="@color/startBlue"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="715dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
